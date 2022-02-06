@@ -1,0 +1,7 @@
+.m-filterPictoWithText.-active {
+  @apply bg-primary text-onPrimary;
+}
+
+.m-filterPictoWithText.-active .m-filterPictoWithText__icon {
+  @apply text-onPrimary;
+}

@@ -1,0 +1,23 @@
+/** Inventory actions */
+export const INIT_INVENTORY_LISTING = 'INIT_INVENTORY_LISTING'
+export const UPDATE_INVENTORY_LISTING = 'UPDATE_INVENTORY_LISTING'
+
+/** Update State Global */
+export const UPDATE_STATE = 'UPDATE_STATE'
+
+/** Parameters actions */
+export const ADD_MULTI_PARAMETERS_RANGE = 'ADD_MULTI_PARAMETERS_RANGE'
+export const ADD_PARAMETERS_ITEM = 'ADD_PARAMETERS_ITEM'
+export const ADD_PARAMETERS_ITEM_TYPE_TEXT = 'ADD_PARAMETERS_ITEM_TYPE_TEXT'
+export const ADD_ALL_PARAMETERS_ITEM = 'ADD_ALL_PARAMETERS_ITEM'
+export const DELETE_PARAMETERS_ITEM = 'DELETE_PARAMETERS_ITEM'
+export const DELETE_PARAMETERS = 'DELETE_PARAMETERS'
+
+/** Filters actions */
+export const UPDATE_FILTER = 'UPDATE_FILTER'
+
+/** Vehicle listing actions */
+export const UPDATE_VEHICLES = 'UPDATE_VEHICLES'
+
+/** Hub Categories Actions */
+export const UPDATE_HUBCATEGORY_SELECTED = 'UPDATE_HUBCATEGORY_SELECTED'

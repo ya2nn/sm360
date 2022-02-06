@@ -1,0 +1,40 @@
+stages:
+  - install
+  - build
+  - publish
+
+install:
+  stage: install
+  image: sm360/node:lts-yarn
+  script:
+    - npm install
+  artifacts:
+    expire_in: 1h
+    paths:
+      - node_modules/
+
+build:
+  stage: build
+  image: sm360/node:lts-yarn
+  script:
+    - npm run build
+  artifacts:
+    expire_in: 1h
+    paths:
+      - dist/
+
+publish:
+  stage: publish
+  image: sm360/node:lts-yarn
+  allow_failure: true
+  environment:
+    name: private-repository/latest
+  dependencies:
+    - build
+  except:
+    - tags
+  only:
+    refs:
+      - master
+  script:
+    - npm publish --registry ${NPM_PRIVATE_REPOSITORY_URL} --tag latest

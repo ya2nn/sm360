@@ -1,0 +1,75 @@
+:root {
+    /* Main */
+    --primary: 71, 198, 113;
+    --onPrimary: 255, 255, 255;
+
+    --secondary: 74, 213, 239;
+    --onSecondary: 255, 255, 255;
+
+    --tertiary: 17, 17, 17;
+    --onTertiary: 255, 255, 255;
+
+    /* Background/surface */
+    --backgroundPrimary: 242, 242, 242;
+    --onBackgroundPrimary: 0, 0, 0;
+
+    --backgroundSecondary: 17, 17, 17;
+    --onBackgroundSecondary: 242, 242, 242;
+
+    --surfacePrimary: 255, 255, 255;
+    --onSurfacePrimary: 0, 0, 0;
+
+    --surfaceSecondary: 0, 0, 0;
+    --onSurfaceSecondary: 242, 242, 242;
+
+    /* Semantic */
+    --success: 22, 169, 84;
+    --onSuccess: 242, 242, 242;
+
+    --error: 189, 21, 25;
+    --onError: 242, 242, 242;
+
+    --warning: 255, 213, 0;
+    --onWarning: 17, 17, 17;
+
+    --notification: 36, 64, 223;
+    --onNotification: 242, 242, 242;
+
+    /* Buttons */
+
+    /** Primary **/
+    --buttonPrimary: 71, 198, 113;
+    --onButtonPrimary: 255, 255, 255;
+    --buttonPrimaryBorder: 71, 198, 113;
+
+    --buttonPrimaryHover: 96, 227, 122;
+    --onButtonPrimaryHover: 255, 255, 255;
+    --buttonPrimaryBorderHover: 96, 227, 122;
+
+    /** Secondary **/
+    --buttonSecondary: 74, 213, 239;
+    --onButtonSecondary: 255, 255, 255;
+    --buttonSecondaryBorder: 74, 213, 239;
+
+    --buttonSecondaryHover: 56, 180, 203;
+    --onButtonSecondaryHover: 255, 255, 255;
+    --buttonSecondaryBorderHover: 56, 180, 203;
+
+    /** Tertiary **/
+    --buttonTertiary: 17, 17, 17;
+    --onButtonTertiary: 255, 255, 255;
+    --buttonTertiaryBorder: 17, 17, 17;
+
+    --buttonTertiaryHover: 56, 180, 203;
+    --onButtonTertiaryHover: 255, 255, 255;
+    --buttonTertiaryBorderHover: 56, 180, 203;
+
+    /** Quaternary **/
+    --buttonQuaternary: 255, 108, 82;
+    --onButtonQuaternary: 255, 255, 255;
+    --buttonQuaternaryBorder: 255, 108, 82;
+
+    --buttonQuaternaryHover: 232, 131, 77;
+    --onButtonQuaternaryHover: 255, 255, 255;
+    --buttonQuaternaryBorderHover: 232, 131, 77;
+}

@@ -1,0 +1,90 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.a-typography.-heading1,
+.wysiwyg h1,
+h1 {
+  @apply font-bold text-[35px] leading-[40px] md:text-[45px] md:leading-[50px] lg:text-[60px] lg:leading-[65px];
+}
+
+.a-typography.-heading2,
+.wysiwyg h2,
+h2 {
+  @apply text-[25px] leading-[30px] md:text-[30px] md:leading-[35px] lg:text-[40px] lg:leading-[45px];
+}
+
+.a-typography.-heading3,
+.wysiwyg h3,
+h3 {
+  @apply font-bold text-[16px] leading-[22px] md:text-[16px] md:leading-[22px] lg:text-[20px] lg:leading-[25px];
+}
+
+.a-typography.-heading4,
+.wysiwyg h4,
+h4,
+.a-typography.-heading5,
+.wysiwyg h5,
+h5,
+.a-typography.-heading6,
+.wysiwyg h6,
+h6 {
+  @apply font-bold text-[14px] leading-[20px] md:text-[14px] md:leading-[20px] lg:text-[16px] lg:leading-[22px];
+}
+
+.a-typography.-fineprint {
+  @apply font-light text-[13px] leading-[15px];
+}
+
+.a-typography.-body {
+  @apply font-light text-[14px] leading-[20px] md:text-[14px] md:leading-[20px] lg:text-[16px] lg:leading-[22px];
+}
+
+:root {
+  --primary: 71, 198, 113;
+  --onPrimary: 255, 255, 255;
+  --secondary: 74, 213, 239;
+  --onSecondary: 255, 255, 255;
+  --tertiary: 17, 17, 17;
+  --onTertiary: 255, 255, 255;
+  --backgroundPrimary: 242, 242, 242;
+  --onBackgroundPrimary: 0, 0, 0;
+  --backgroundSecondary: 17, 17, 17;
+  --onBackgroundSecondary: 242, 242, 242;
+  --surfacePrimary: 255, 255, 255;
+  --onSurfacePrimary: 0, 0, 0;
+  --surfaceSecondary: 0, 0, 0;
+  --onSurfaceSecondary: 242, 242, 242;
+  --success: 22, 169, 84;
+  --onSuccess: 242, 242, 242;
+  --error: 189, 21, 25;
+  --onError: 242, 242, 242;
+  --warning: 255, 213, 0;
+  --onWarning: 17, 17, 17;
+  --notification: 36, 64, 223;
+  --onNotification: 242, 242, 242;
+  --buttonPrimary: 71, 198, 113;
+  --onButtonPrimary: 255, 255, 255;
+  --buttonPrimaryBorder: 71, 198, 113;
+  --buttonPrimaryHover: 96, 227, 122;
+  --onButtonPrimaryHover: 255, 255, 255;
+  --buttonPrimaryBorderHover: 96, 227, 122;
+  --buttonSecondary: 74, 213, 239;
+  --onButtonSecondary: 255, 255, 255;
+  --buttonSecondaryBorder: 74, 213, 239;
+  --buttonSecondaryHover: 56, 180, 203;
+  --onButtonSecondaryHover: 255, 255, 255;
+  --buttonSecondaryBorderHover: 56, 180, 203;
+  --buttonTertiary: 17, 17, 17;
+  --onButtonTertiary: 255, 255, 255;
+  --buttonTertiaryBorder: 17, 17, 17;
+  --buttonTertiaryHover: 56, 180, 203;
+  --onButtonTertiaryHover: 255, 255, 255;
+  --buttonTertiaryBorderHover: 56, 180, 203;
+  --buttonQuaternary: 255, 108, 82;
+  --onButtonQuaternary: 255, 255, 255;
+  --buttonQuaternaryBorder: 255, 108, 82;
+  --buttonQuaternaryHover: 232, 131, 77;
+  --onButtonQuaternaryHover: 255, 255, 255;
+  --buttonQuaternaryBorderHover: 232, 131, 77;
+}

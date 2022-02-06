@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Navigo-Bold";
+  src: url("fonts/Navigo-Bold.eot");
+  src: url("fonts/Navigo-Bold.eot?#iefix") format("embedded-opentype"),
+  url("fonts/Navigo-Bold.woff2") format("woff2"),
+  url("fonts/Navigo-Bold.woff") format("woff"),
+  url("fonts/Navigo-Bold.ttf") format("truetype");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Navigo-Light";
+  src: url("fonts/Navigo-Light.eot");
+  src: url("fonts/Navigo-Bold.eot?#iefix") format("embedded-opentype"),
+  url("fonts/Navigo-Light.woff2") format("woff2"),
+  url("fonts/Navigo-Light.woff") format("woff"),
+  url("fonts/Navigo-Light.ttf") format("truetype");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Navigo-Medium";
+  src: url("fonts/Navigo-Medium.eot");
+  src: url("fonts/Navigo-Bold.eot?#iefix") format("embedded-opentype"),
+  url("fonts/Navigo-Medium.woff2") format("woff2"),
+  url("fonts/Navigo-Medium.woff") format("woff"),
+  url("fonts/Navigo-Medium.ttf") format("truetype");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --font-family-bold: "Navigo-Bold";
+  --font-family-light: "Navigo-Light";
+  --font-family-medium: "Navigo-Medium";
+}

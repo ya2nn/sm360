@@ -1,0 +1,34 @@
+{
+  "name": "@sm360/phoenixjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "esbuild src/*.js src/atoms/*.js src/grid/*.jsx src/hooks/*.js src/molecules/*.jsx src/organisms/*.jsx src/tailwind/js/*.js src/templates/*.jsx src/third-party/*.jsx src/utils/*.js --outdir=dist --target=chrome95",
+    "build-js": "babel src -d dist",
+    "build-css": "tailwindcss -i ./src/style.scss -o ./dist/phoenixjs.css -m",
+    "dev": "esbuild src/*.js src/atoms/*.js src/grid/*.jsx src/hooks/*.js src/molecules/*.jsx src/organisms/*.jsx src/tailwind/js/*.js src/templates/*.jsx src/third-party/*.jsx src/utils/*.js --outdir=dist --target=chrome95 --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.17.0",
+    "@tailwindcss/forms": "^0.4.0",
+    "@tailwindcss/line-clamp": "^0.3.1",
+    "esbuild": "^0.14.18",
+    "lodash": "^4.17.21",
+    "react-lazyload": "^3.2.0",
+    "react-player": "^2.9.0",
+    "react-router-dom": "^6.2.1",
+    "tailwind-scrollbar-hide": "^1.1.7",
+    "tailwindcss": "^3.0.18"
+  },
+  "dependencies": {
+    "@emotion/css": "^11.7.1",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2"
+  }
+}

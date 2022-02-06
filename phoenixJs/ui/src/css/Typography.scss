@@ -1,0 +1,37 @@
+.a-typography.-heading1,
+.wysiwyg h1,
+h1 {
+  @apply font-custom-bold text-[35px] leading-[40px] md:text-[45px] md:leading-[50px] lg:text-[60px] lg:leading-[65px];
+}
+
+.a-typography.-heading2,
+.wysiwyg h2,
+h2 {
+  @apply text-[25px] leading-[30px] md:text-[30px] md:leading-[35px] lg:text-[40px] lg:leading-[45px];
+}
+
+.a-typography.-heading3,
+.wysiwyg h3,
+h3 {
+  @apply font-custom-bold text-[16px] leading-[22px] md:text-[16px] md:leading-[22px] lg:text-[20px] lg:leading-[25px];
+}
+
+.a-typography.-heading4,
+.wysiwyg h4,
+h4,
+.a-typography.-heading5,
+.wysiwyg h5,
+h5,
+.a-typography.-heading6,
+.wysiwyg h6,
+h6 {
+  @apply font-custom-bold text-[14px] leading-[20px] md:text-[14px] md:leading-[20px] lg:text-[16px] lg:leading-[22px];
+}
+
+.a-typography.-fineprint {
+  @apply font-custom-light text-[13px] leading-[15px];
+}
+
+.a-typography.-body {
+  @apply font-custom-light text-[14px] leading-[20px] md:text-[14px] md:leading-[20px] lg:text-[16px] lg:leading-[22px];
+}
