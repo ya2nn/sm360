@@ -1,6 +1,6 @@
 /* TODO: Revoir tous les texte static et les rendre dynamic */
 import PropTypes from 'prop-types'
-import {Image, Modal, openModal} from '@sm360/phoenixjs'
+import { Image, Modal, openModal } from '@sm360/phoenixjs'
 
 const OpenGallery = ({
   mainPictureUrl,

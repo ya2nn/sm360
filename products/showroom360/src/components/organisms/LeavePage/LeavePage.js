@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import {Icon} from '@sm360/phoenixjs'
+import { Icon } from '@sm360/phoenixjs'
 import LeavePageModalButtonItem from '../../molecules/LeavePageModalButtonItem/LeavePageModalButtonItem'
 
 const LeavePage = ({

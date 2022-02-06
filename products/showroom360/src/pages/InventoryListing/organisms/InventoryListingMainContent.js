@@ -1,7 +1,7 @@
 import { useContext } from 'react'
 import HubCategories from './HubCategories/HubCategories'
 import Filters from './Filters/Filters'
-import {Container, Typography, useDeviceType} from '@sm360/phoenixjs'
+import { Container, Typography, useDeviceType } from '@sm360/phoenixjs'
 import InventoryListingContext from '../InventoryListingContext'
 import FiltersMobile from './Filters/FiltersMobile'
 import Vehicles from './Vehicles/Vehicles'

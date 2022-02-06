@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import FilterPictoWithText from '../../../../../components/molecules/FilterPictoWithText/FilterPictoWithText'
-import {useDeviceType} from '@sm360/phoenixjs'
+import { useDeviceType } from '@sm360/phoenixjs'
 import FilterClearAll from '../FilterSelectClearAll/FilterClearAll'
 import FilterSelectAll from '../FilterSelectClearAll/FilterSelectAll'
 

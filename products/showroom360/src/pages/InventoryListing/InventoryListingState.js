@@ -1,5 +1,9 @@
 import { useReducer } from 'react'
-import { extractUrlParametersAsObjectWithArrayProperties, getHubPathName, setHubPathName } from '@sm360/phoenixjs'
+import {
+  extractUrlParametersAsObjectWithArrayProperties,
+  getHubPathName,
+  setHubPathName,
+} from '@sm360/phoenixjs'
 
 import InventoryListingContext from './InventoryListingContext'
 import InventoryListingReducer from './InventoryListingReducer'

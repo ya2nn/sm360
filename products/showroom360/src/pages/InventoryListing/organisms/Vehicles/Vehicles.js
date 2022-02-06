@@ -1,4 +1,10 @@
-import {Typography, Pagination, PromoCard, VehicleCard, useDeviceType} from '@sm360/phoenixjs'
+import {
+  Typography,
+  Pagination,
+  PromoCard,
+  VehicleCard,
+  useDeviceType,
+} from '@sm360/phoenixjs'
 import { useContext, useState, useEffect } from 'react'
 import InventoryListingContext from '../../InventoryListingContext'
 import StockNumber from '../../../../components/molecules/StockNumber/StockNumber'

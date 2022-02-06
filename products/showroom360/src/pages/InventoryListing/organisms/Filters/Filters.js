@@ -1,5 +1,5 @@
 /* TODO: Revoir les configuration de couleur */
-import {Accordion, AccordionItem, Icon, lang} from '@sm360/phoenixjs'
+import { Accordion, AccordionItem, Icon, lang } from '@sm360/phoenixjs'
 import PropTypes from 'prop-types'
 import FilterItem from './FilterItemType/FilterItem'
 import { filterItemType } from './FilterItemType/FilterItemType'

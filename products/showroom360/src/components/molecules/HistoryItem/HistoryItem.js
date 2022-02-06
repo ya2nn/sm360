@@ -1,6 +1,6 @@
 /* TODO: Dynamiser les textes en fonction de la langue et voir si on remonte le switch case a son organisme ou non  */
 import PropTypes from 'prop-types'
-import {Typography} from '@sm360/phoenixjs'
+import { Typography } from '@sm360/phoenixjs'
 
 const HistoryItem = ({ type, description: initialDesc }) => {
   let title

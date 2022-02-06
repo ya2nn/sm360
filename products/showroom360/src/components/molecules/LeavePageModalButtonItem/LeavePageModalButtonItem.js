@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import {Icon, Button} from '@sm360/phoenixjs'
+import { Icon, Button } from '@sm360/phoenixjs'
 
 const LeavePageModalButtonItem = ({
   btnLabel,

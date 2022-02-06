@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import {RadioItem, RadioGroup, SelectItem, Select} from '@sm360/phoenixjs'
+import { RadioItem, RadioGroup, SelectItem, Select } from '@sm360/phoenixjs'
 
 const HubCategories = ({
   variant,

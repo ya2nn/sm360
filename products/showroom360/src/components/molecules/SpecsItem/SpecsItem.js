@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import {Icon, Typography} from '@sm360/phoenixjs'
+import { Icon, Typography } from '@sm360/phoenixjs'
 
 const SpecsItem = ({ text, iconSymbol, title }) => {
   return (

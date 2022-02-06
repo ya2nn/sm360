@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 
-import {useDeviceType} from '@sm360/phoenixjs'
+import { useDeviceType } from '@sm360/phoenixjs'
 import FilterColorWithText from '../../../../../components/molecules/FilterColorWithText/FilterColorWithText'
 import { useContext } from 'react'
 import InventoryListingContext from '../../../InventoryListingContext'

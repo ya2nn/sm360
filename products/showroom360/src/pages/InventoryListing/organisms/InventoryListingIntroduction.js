@@ -1,4 +1,10 @@
-import {Typography, Container, Breadcrumb, BreadcrumbItem, useDeviceType} from '@sm360/phoenixjs'
+import {
+  Typography,
+  Container,
+  Breadcrumb,
+  BreadcrumbItem,
+  useDeviceType,
+} from '@sm360/phoenixjs'
 import { useContext, useEffect, useState } from 'react'
 import InventoryListingContext from '../InventoryListingContext'
 import SearchBar from '../molecules/SearchBar/SearchBar'

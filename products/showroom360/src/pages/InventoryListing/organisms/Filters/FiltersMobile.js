@@ -1,5 +1,12 @@
 /* TODO: Revoir les configuration de couleur */
-import {Icon, Button, Dropdown, DropdownItem, Modal, openModal} from '@sm360/phoenixjs'
+import {
+  Icon,
+  Button,
+  Dropdown,
+  DropdownItem,
+  Modal,
+  openModal,
+} from '@sm360/phoenixjs'
 import Filters from './Filters'
 import PropTypes from 'prop-types'
 import HubCategories from '../HubCategories/HubCategories'

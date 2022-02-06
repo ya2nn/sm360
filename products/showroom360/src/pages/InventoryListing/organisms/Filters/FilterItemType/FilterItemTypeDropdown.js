@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import { useContext, useEffect, useRef, useState } from 'react'
-import {Dropdown, DropdownItem, lang, useOutsideClick} from '@sm360/phoenixjs'
+import { Dropdown, DropdownItem, lang, useOutsideClick } from '@sm360/phoenixjs'
 import InventoryListingContext from '../../../InventoryListingContext'
 import { filterItemType } from './FilterItemType'
 import FilterClearAll from '../FilterSelectClearAll/FilterClearAll'

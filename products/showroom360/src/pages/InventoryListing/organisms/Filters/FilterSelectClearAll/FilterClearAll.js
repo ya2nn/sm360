@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import { useContext } from 'react'
 import InventoryListingContext from '../../../InventoryListingContext'
-import {Icon, Typography} from '@sm360/phoenixjs'
+import { Icon, Typography } from '@sm360/phoenixjs'
 
 const FilterClearAll = ({ paramNames }) => {
   const { changeState, updateParameters, parameters } = useContext(

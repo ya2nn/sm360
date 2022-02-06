@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import { useContext } from 'react'
-import {Icon, Typography} from '@sm360/phoenixjs'
+import { Icon, Typography } from '@sm360/phoenixjs'
 import InventoryListingContext from '../../../InventoryListingContext'
 
 const FilterSelectAll = ({ filterName, filterItems }) => {
