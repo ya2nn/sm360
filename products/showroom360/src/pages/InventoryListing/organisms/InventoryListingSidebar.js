@@ -24,7 +24,7 @@ const InventoryListingSidebar = () => {
     )
 
   return (
-    <div className='o-inventoryListingSidebar xxl:p-[40px] p-[20px]'>
+    <div className='o-inventoryListingSidebar 2xl:p-[40px] p-[20px]'>
       {/* Section Widget Tradein (Add condition - Position XMS) */}
       <section className='o-inventoryListingSidebar__tradein mb-4 flex h-[100px] items-center justify-center bg-red-200'>
         Widget Tradein...
